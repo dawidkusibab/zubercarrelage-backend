@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "statistics",
+  "info": {
+    "singularName": "statistic",
+    "pluralName": "statistics",
+    "displayName": "Statistic"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "metrics": {
+      "type": "component",
+      "component": "statistic.metric",
+      "repeatable": true
+    }
+  }
+}
